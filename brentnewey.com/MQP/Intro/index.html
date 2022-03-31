@@ -1,0 +1,82 @@
+<html><head><title>Major Qualifying Project - Welcome</title></head>
+
+<script language="JavaScript">
+<!--
+
+function radio_button_checker() {
+
+	var radio_choice = false;
+
+	for (counter = 0; counter < radio_form.radio_button.length; counter++) {
+		if(radio_form.radio_button[counter].checked){
+			radio_choice = true;
+		}
+	}
+
+	if(!radio_choice) {
+		alert("Please select a topic.");
+			return (false);
+	}
+
+	return (true);
+
+//../cgi-bin/example/start.cgi
+
+}
+
+-->
+</script>
+
+<body>
+<blockquote>
+<center><font size=+1>Welcome</font></center>
+<p>You have reached the preliminary activity for our Major Qualifying
+Project.  Thank you for choosing to take part in this activity.</p>
+<p>For each of the following pages, please read and follow the
+instructions carefully.
+Before you begin, please answer the following questions.</p>
+
+<form action="example.cgi" method="POST" onsubmit="return radio_button_checker()"
+name="radio_form">
+
+<table>
+  <tr>
+    <td align="right">From what class did you recieve notice of this project (example: cs2005)?:</td>
+    <td><select name="class">
+      <option value="cs3041">CS3041</option>
+      </select>
+  </td>
+  </tr>
+  <tr>
+    <td align="right">Please enter your unix login:</td>
+    <td><input type=text name="init"></td>
+  </tr>
+  <tr>
+    <td align="right">How many years of experience do you have using the web?:</td>
+    <td><input type=text name="exp"></td>
+ </tr>
+</table>
+
+<p>Your class and unix login information are for record-keeping and statistical analysis
+purposes only.  We will not publish them.
+
+<p>When you are ready, click "Start the Example".  You will be taken to
+an example page.  Once the example is completed, you will start the actual
+activity. Please select one of the following topics to find information about:
+<p><input type=radio value="alt" name="radio_button">Alternative Music
+<p><input type=radio value="comp" name="radio_button">Computerized Music Courses
+<p><input type=radio value="classic" name="radio_button">Classical Music
+<p><input type=radio value="jazz" name="radio_button">Jazz Music
+
+<p>After reading the paragraphs, choose & click the BUTTON most appropriate to your search.
+Thanks for helping out!</p>
+
+<p>Note: If you have any questions, problems, or concerns with these
+websites, email us, <a href="mailto:bnewey@wpi.edu, anitra@wpi.edu,
+wickss@wpi.edu">Anitra, Brent, and Mike</a>.</p>
+
+<div align="center"><input type=submit value="Start the Example"></div>
+</form>
+</body>
+</blockquote>
+</html>

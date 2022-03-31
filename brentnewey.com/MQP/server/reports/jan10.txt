@@ -1,0 +1,17 @@
+Went over paper.
+	- Anitra edited sections 1-4
+	- Brent will redo the 2 site diagrams (section 5-design)
+	- Anitra will edit section 5 once Brent is done
+	- Mike will edit section 6 (experiment design)
+
+Talked about the code:
+	- Brent will attempt to find the problem in fill()
+	- Mike & Anitra will get code ready to be tested.
+
+Mike will try to finish the graphs, trying:
+	- straight line
+	- 2-3 different break points for the 2 line model
+
+Data from the second experiment.... Brent?
+
+Next meeting: Monday at 12. (meeting with DCB Monday at 1pm).

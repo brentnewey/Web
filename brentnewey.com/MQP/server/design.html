@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Rough Design</title>
+</head>
+<body>
+<h3>Design:</h3>
+<p><b>Type of Site:</b> Informational with navigation links, both within the text and possibly as
+separate groups.  The page will offer a type of information that will be of some interest to a large
+amount of WPI students (Academic information, football scores, book reviews, or something).
+The initial site will have a hierarchical structure at least three levels
+deep, although this is by no means a permanent attribute.  The genetic algorithm will allow 
+alternative structures.</p>
+<p><b>Users:</b> WPI Students.  These can be most easilly obtained through professors of
+B-term classes.  The users will be divided into two groups, a control group and an experimental
+group.  There are no current plans to evaluate or classify the users at this time.  However,
+some observations can be associated with WPI students in general (intelligent?  knowledgeable?).
+<p><b>Collected Information:</b>  Upon scrutinous inspection, it was found that most "usage statistics" boil
+down to evaluating which pages were visited.  This is the only information that the browser sends to the server in order to
+navigate the site.  From this information can be derived time spent on a page (before another page is loaded), 
+order of pages loaded, and length of the "path" from one page to another.  Of these three, only
+the latter two are currently being considered for use in this project.  The former has been eliminated
+because of its unpredictable assignation of meaning.</p>
+<p>Another form of information that can be gathered is user feedback.  In the case of this 
+experiment, it is most desireable to reduce the intrusiveness of the gathering techniques, and so
+we opted for a simple rating system.  We ask two fundamental questions to which they reply positively
+or negatively.  These questions are "Is the layout of the page helpful in accomplishing your task?", and
+"Does the layout provide a comfortable nagivating experience?"
+</p>
+<p>The information will be collected in an experimental format.  There will be a control
+group and an experimental group, so a comparison can be made.  The control group will recieve
+"placebo" sites, in which nothing has actually changed, but the task the individual recieves
+may be different.  Hence, the same average data should be collected while minimizing the lear
+<p><b>Collection logistics:</b>All server side activies (such as they are), will be conducted
+using Perl scripts.  Since this will mostly consists of recording links, this information can 
+be output to a file and given as such to the genetic algorithm.</p>
+<p><b>Metrics to Improve:</b> Access time, retention, path length, user satisfaction, ability
+to learn material, ability to learn system.  HCI Research may be required.</p>
+<p><b>Effect of Metrics on Collection:</b> ???</p>
+<p><b>Genetic Algorithm Representation:</b>For each attribute of a given webpage, it can
+be represented as a list of attributes.  The smallest atom within a webpage will consist of
+a sentence, and these sentences will be placed in groups that relate the sentences in some
+way (sentences that would normally be in a paragraph or list together, for example).  Finally,
+each page within the site is represented as it's own object, with attributes for page attributes
+such as background color or text style.  Each group will have an associated page, and the stucture
+of the site can be changed dynamically by changed the pages to which each group is assigned (and 
+hence the links).</p>
+<p><b>What we can change:</b>For each individual unit we can change the priority of the unit
+in respect to its location within a group.  Priorities can have any range, so the higher the
+priority, the earlier it appears in a group.  The group associations would be stored in the unit.
+Thus, this priority rating can be applied to an unit in any group with effective results.</p>
+<p>Bearing some similarity to location is a type of "appearance bit".  The appearance bit can 
+be toggled to determine if the sentence actually appears or not.</p>
+<p>Many similar attributes apply to groups.  For example, the order of groups within a page
+parallels the order of units within a group.  Appearance of an entire group may be toggled as 
+well.  However, other properties specific to groups will include the indentation of the group,
+and perhaps annotations.  Also, the type of group is important, say a list or paragraph.</p>
+
+<p><b>Genetic Algorithm Details:</b> The internal representation will be divided into sections: unit,
+group, and page representation.  If one thinks of the aggragate representation as a stack of arrays, then all
+websites with an equal amount of content will have these attributes interchangeable without breaking the system.
+Actual content is stored separately (one can think of each unit as an array and a sentence: the sentence is untouched
+by the algorithm).  To create a site with some content missing, simply flip the "appearance" bit.</p>
+<p>Mutation is accomplished though what is known as "real number creep".  The process is simple:
+Choose some attributes at random and move them in a set positive or negative direction.  Representation
+is inherently ordered, which means that similar attributes will be close together on the number scale (Color
+is a good demonstration: Lighter colors are higher numbers, darker colors are lower numbers).</p>
+<p><b>Effects of the Adaptation:</b>There will be a pre-experiment to determine the general effects of
+different values for attributes.  Participants will be given one of five pseudo-randomly generated sites and behavior
+will be recorded.  Sites with high scores will have their associated attribute sets given more value in
+the fitness function, with sites that score poorly having the opposite effect.</p>

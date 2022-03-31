@@ -1,0 +1,39 @@
+<HTML>
+<head><title>Summary - Genetic and Interactive Optimization of Web Sites</title>
+
+<body>
+<h3>Source:</h3>
+<p>Oliver, A., Regragui, O., Monmarché, N., Venturini, G. "Genetic and Interactive Optimization of Web Sites." 2002. Eleventh International World Wide Web Conference. 12 September 2002. &lt;<a href="http://www2002.org/CDROM/poster/57/">http://www2002.org/CDROM/poster/57/</a>&gt;.</p>
+
+<h3>Summary written by Anitra</h3>
+
+<h4>Optimization of Web sites:</h4>
+<ul>
+<li>Their research was aimed at helping to <b>design</b> a website - "an automatic tool to make... valuable creative suggestions"</li>
+<li>The user would select members of the current population; the next generation would be the selected members plus offspring, and the process would be repeated.</li>
+<li>Because it was a recommendation system, they limited their population size to 12, as that was the most that could feasibly be displayed at one time.</li>
+</ul>
+
+<h4>Layout optimization</h4>
+<p>Working with a limited number of objects (text and pictures), they placed objects in random positions within a table. Mutation randomly regenerated the position in the table for one item, while crossover created one child by picking and choosing elements from two parents until all elements were present.</p>
+
+<h4>Style optimization</h4>
+Their genes to encode style:
+<table border><tr><td>Gene</td><td>Description</td><td>Values</td></tr>
+<tr><td>Color1</td><td>color of the menu's text</td><td>(R, G, B)<font face="symbol">Î</font>[0,255]<sup>3</sup></td></tr>
+<tr><td>Color2</td><td>background color of menu</td><td>(R, G, B)<font face="symbol">Î</font>[0,255]<sup>3</sup></td></tr>
+<tr><td>Color3</td><td>first possible color of text</td><td>(R, G, B)<font face="symbol">Î</font>[0,255]<sup>3</sup></td></tr> 
+<tr><td>Color4</td><td>background color for Color3</td><td>(R, G, B)<font face="symbol">Î</font>[0,255]<sup>3</sup></td></tr>
+<tr><td>Color5</td><td>second possible color of text</td><td>(R, G, B)<font face="symbol">Î</font>[0,255]<sup>3</sup></td></tr>
+<tr><td>Color6</td><td>background color for Color5</td><td>(R, G, B)<font face="symbol">Î</font>[0,255]<sup>3</sup></td></tr>
+<tr><td>Font</td><td>font for page's texts</td><td>9 fonts</td></tr>
+<tr><td>Size</td><td>font size</td><td>[1,4]</td></tr> 
+<tr><td>Bold</td><td>style for page's texts</td><td>yes/no</td></tr>
+<tr><td>Italic</td><td>''</td><td>yes/no</td></tr>
+<tr><td>Underlined</td><td>''</td><td>yes/no</td></tr>
+<tr><td>Alignment</td><td><p>''</td><td>centered/left/right</td></tr>
+<tr><td>Bullet</td><td>paragraphs start with a bullet</td><td>yes/no</td></tr>
+<tr><td>Borders</td><td>borders around images</td><td>yes/no</td></tr></table>
+
+</body>
+</HTML>

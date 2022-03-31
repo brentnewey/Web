@@ -1,0 +1,13 @@
+BODY, TD, TH {color:#2b2b69; font-family: sans-serif; font-size:14px;
+		background-color:#CCF;}
+
+div.left {font-size:13px; color:#FFF;
+	background: #2b2b69 url(purple.jpeg) top left no-repeat fixed;
+	border-color:#FFF; border-style:solid; border-width:1px;}
+	
+div.solid, div.right {font-size:13px; color:#FFF;
+	background: #000 url(http://www.boulder.swri.edu/~durda/greeting_dawn.jpg) top right no-repeat fixed;
+	border-color:green; border-style:dashed; border-width:1px 2px;}
+	
+UL {list-style-type:none;}
+A:link, A:visited {color: FFFFFF;}

@@ -1,0 +1,31 @@
+<html>
+<head><title>Summary - GAs in Search, Optimization, Machine Learning</title></head>
+
+<body>
+<h3>Source:</h3>
+Goldberg, D. <u>Genetic Algorithms in Search, Optimization, and Machine Learning</u>. Reading: Addison-Wesley, 1989.
+
+<h3>Summary by Anitra</h3>
+
+<p>This book  basically explains what genetic algorithms are and basics of how to implement them. Points to note:
+<ul>
+<li>Genetic algorithms are <i>robust</i>, having the flexibility to handle many types of optimization problems, while still being relatively efficient. Most search algorithms are optimized for a certain type of problem, and fail miserably at another type. Goldberg shows that, even in problems explicitly designed to fool a GA, it often comes up with the right answer.</li>
+<li>Four important differences between GAs and traditional optimization/search algorithms:
+	<ul><li>GAs do not use the actual parameters, only a coding of the parameter set.</li>
+	<li>Instead of searching from a single point (ex. a random walk), GAs search from multiple points at once (the <i>population</i> of points).</li>
+	<li>GAs do not need auxillary knowledge (eg. derivatives) to find a solution, only prior solutions (Goldberg calls this "payoff information").</li>
+	<li>GAs use probabilistic transition rules, not deterministic rules.</li>
+	</ul>
+<li>The three pieces of a genetic algorithm: <b>reproduction, crossover,</b> and <b>mutation</b>.</li>
+<li>Schemata are important in understanding how GAs work. Schemata are essentially templates of similarities. Schemata with desirable results tend to become more common in successive generations of the GA (especially short schemata, less easily broken by crossover).</li>
+<li>Fitness functions for GAs need to be non-negative.</li>
+<li>Fitness can be linearly scaled to increase diversity in early populations, and to increase the selection of the best members in late populations.</li>
+</ul>
+<b>Advanced concepts:</b>
+<ul><li>Diploidy (where one gene/string is actually a pair of two similar genes/strings) and dominance; or, how to keep once-useful genotypes from dieing out completely.</li>
+<li>If more than one near-optimal solution exists, mating can be restricted to find multiple optima.</li>
+<li>Multi-objective optimization.</li>
+<li>GAs can be hybridized with problem-specific search techniques to make use of problem-specific (non-payoff) information.</li>
+<li>Genetics-based Machine Learning</li>
+</ul>
+</body></html>

@@ -1,0 +1,36 @@
+Word counts between (/including) links
+
+1/4 page:
+	22
+	22
+	24
+	23
+	23
+
+1/2 page:
+	51
+	50
+	54
+	52
+	54
+
+1 Page:
+	106 + 2 para breaks
+	104 + 0
+	110 + 0
+	109 + 1
+	100 + 1
+
+2 page:
+	162 + 4 para breaks
+	155 + 1
+	165 + 1
+	152 + 2
+	155 + 2
+
+4 page:
+	308 + 7 para breaks
+	331 + 3
+	336 + 3
+	330 + 4
+	314 + 4

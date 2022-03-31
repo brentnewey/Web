@@ -1,0 +1,244 @@
+<tr><td><p>Canoe Tilting: <font size=-1>from http://www.paddlermagazine.com/issues/1999_1/tilting.htm</font></p>
+        	<p>Originating in the early 1930s, canoe tilting pits two paddlers standing atop the bows of canoes against one another in a battle of blows with padded, eight-foot-long spruce poles. While competitors joust, accomplices in the stern J-stroke to keep the canoe in place. The origins of the sport are unclear (it might have stemmed from canoe polers encroaching on each other's territory), but its rules are straightforward: the first one in the drink loses. If a contestant gets knocked into the boat, it constitutes a foul; three fouls and you're also out.</p>
+<a href="javascript:nextPage('2->6', '6.cgi');">Strangely named ball sports.</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(1);">
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Sepak Takraw: <font size=-1>from http://www.subway.com/subpages/extreme/sepak/</font></p>
+	<p>Sepak Takraw originated in Southeast Asia. It's volleyball, gymnastics and soccer all rolled into one. There are three players on each team and it's played on a court like the ones used for badminton. The rules are about the same as volleyball with two minor changes: The ball they use is a hard plastic sphere and the players can't touch it with their hands or arms. 
+	Due to the unique rules, this sport was heavily dominated by taller players who could lift their leg above the net to make a shot. But then a 5'2" Sepakker from Indonesia, Pakke "The Superball" Jursi, developed a move that completely changed the sport.  He invented the 360 degree,airborne, cartwheel spike. 
+	In other words, he runs up to the net, does a back flip and while he's upside down and in midair,he kicks the ball 60 miles per hour into his opponent's head. 
+	These days, the best spikers catch so much air that they're still above the net when their shot lands on the other side. A spiker may perform this move 120 times during a one hour match and that's without the use of Dramamine.</p></td>
+
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(15);">
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Skittles: <font size=-1>from http://users.iclway.co.uk/robinson/skittles/</font></p>
+	<p>The traditional pub game of London Skittles is played with nine pins. Unlike other forms of alley skittles it is played not with a ball but a cheese, which is thrown (not rolled) at the pins.
+	Unlike other traditional games of nine pins, London Skittles is played not with a ball but a cheese. This is thrown through the air, without bouncing, at the front pin some 21ft away. The game is scored by counting not the number of pins knocked down, but the number of throws to clear the frame. The player has a maximum of four throws in which to do this. The best score is therefore one, known as a floorer. The worst is a five, scored when there are still pins standing after four throws. The 'par' score is three, which only the best of today's players can average.
+	The ‘cheese’ is actually is made of lignum vitae, a dense tropical hardwood. Cheeses vary in size and exact shape, most weighing about 10lb.</b>
+<a href="javascript:nextPage('1->4', '4.cgi');">Petanque and Skijoring</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(17);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Pétanque: <font size=-1>from http://www.petanqueamerica.com/</font></p>
+	<p>Pétanque, pronounced "pay-tonk", one of Europe's most popular outdoor games, is a distant cousin of horseshoes and a close relative of bocce. The game originated in the Provence in the early 1900's. The aim is to toss, or roll a number of steel balls as close as possible to a small wooden aim ball, called "but" or "cochonnet" (meaning "piglet" in French). 
+	Players take turns, and whoever ends up closest to the aim ball when all balls are played, wins. Unlike horseshoes, where the aim stake is fixed, petanques' aim ball may be hit at any time, which can completely turn around the score at the last second. And whereas the official bocce rules call for a prepared court, with markers and sideboards, petanque can be played on most outdoor surfaces, anytime you feel like.</p>
+<a href="javascript:nextPage('4->10', '10.cgi');">Skijoring</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(13);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Cup Stacking: <font size=-1>from Anitra Setchell</font></p>
+	<p>In cup stacking, participants stack specially designed cups into predetermined pyramids and then un-stack them back into columns as quickly as possible. Used primarily to teach children confidence and ambidexterity, cup-stacking can be either an individual or team sport. Cup stacking is much touted as a sport for all ages and abilities.</p>
+<a href="javascript:nextPage('1->2', '2.cgi');">Ball sports, foot races, and water sports</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(4);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Kabbadi: <font size=-1>from http://www.goindiago.com/sports/kabaddi/kabaddi1.htm</font></p>
+	<p>In Kabaddi, two teams compete with each other for higher scores, by touching or capturing the players of the opponent team. Each team consists of 12 players, of which seven are on court at a time, and five in reserve. The two teams fight for higher scores, alternating defence and offense. The court is as large as that for a dodge ball game. 
+	The side winning the toss sends a 'raider', who enters the opponents' court chanting, 'kabaddi-kabaddi'. The raider's aim is to touch any or all players on the opposing side, and return to his court in one breath. The person, whom the raider touches, will then be out. The aim of the opposing team is to hold the raider, and stop him from returning to his own court, until he takes another breath. If the raider cannot return to his court in the same breath while chanting 'kabaddi', he will be declared out. Each team alternates in sending a player into the opponents' court. If a player goes out of the boundary line during the course of the play, or if any part of his body touches the ground outside the boundary, he will be out, except during a struggle.</p></td>
+
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(8);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Dressage: <font size=-1>from http://www.pvda.org/about_pvda/what_is_dressage.html</font></p>
+	<p>The word "dressage", derived from a French term meaning training, is not only a widely used method of training horses, but also a competitive equestrian sport where horse an rider strive for perfection in the performance of complex "test" patterns (much like in figure skating). An English style of riding, dressage is one of the three equestrian sports in Olympic competition.</p>
+<p>http://www.riding-for-sport-dressage.com/</p>
+	<p>In dressage competitions, the horse and rider perform in tests that display the horse’s balance, obedience, and suppleness. The competitions themselves are much like figure skating, in which the athlete must perform a specific set of maneuvers. In dressage, the rider and horse demonstrate three basic gaits (walk, trot, and canter), and ride a number of patterns that include circles and figure eights. At more advanced levels, the skills and patterns become more complicated, including diagonals, serpentines, flying changes, and pirouettes. Clearly, these are lovely to watch. Among the more interesting movements are the piaffe, a highly “collected” movement in which the horse trots on the spot, and the passage, an elevated trot that makes the horse appear to float!</p></td>
+
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(5);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Horse Vaulting: <font size=-1>from http://www.americanvaulting.org/</font></p>
+	<p>Horse vaulting is most easily described as gymnastics performed on the back (or other parts) of a moving horse. As in many other forms of athletic competition (figure skating for example), participants are judged on both a set of compulsory moves, and in freestyle competition called (in German) a Kür. 
+	With a history extending back to Roman sports, vaulting requires the teamwork of the vaulter, horse and longeur, who controls the horse in a circle on a longe line. Vaulters may compete as individuals, in pairs, or as a team.</p>
+
+<a href="javascript:nextPage('1->3', '3.cgi');">Rolling, chasing, and performing.</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(7);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+ 
+
+
+<tr><td><p>Eton Fives: <font size=-1>from http://uk.sports.yahoo.com/030205/80/drmka.html</font></p>
+
+<p>Eton fives is a doubles game in which players smack a cork ball against the three-sided 
+outdoor court with their hands rather than with rackets. The name fives is thought to 
+derive from an old slang word for hands. Fives demands a lot of hand-eye co-ordination 
+as the ball ricochets around the court. The best shots are not the fastest but those that 
+bounce off the buttress at an unpredictable angle. It is about the only sport where the 
+server does not have an advantage, because if the player taking the rebound does not like 
+the serve he can ask for the ball to be served again. Since there are no umpires, disputes, 
+such as when players get in each other's way, are resolved by replaying the point. Eton 
+fives was first codified in 1877, around the same time rules were written for rugby union 
+and soccer. But unlike these better-known sports, Eton fives never made the leap from its 
+private school origins.</p>
+<a href="javascript:nextPage('3->8', '8.cgi');">Noodling</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(6);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Noodling: <font size=-1>from http://www.dto.com/fwfishing/methods/method.jsp?Articleid=152&Articletypeid=107</font></p>
+
+<p>Noodling is the sport of catching cat-fish with one's bare hands. The origins of the name noodling are unknown, but it is speculated that it comes from the slippery nature of the catfish, which can feel like a wet noodle. Noodling is legal in only a handful of states, most of them being in the southern United States, where catfish can weigh over 100 pounds. The story of noodling on the American frontier became intertwined with the legends associated with catfish, such as their supposed gargantuan size and propensity to eat small children. For example, in Mark Twain’s Life on the Mississippi, a catfish six foot long and weighing 250 pounds is claimed to have been seen. Another factor contributing to the development of noodling was that it has the very practical aspect of being able to put a lot of meat on the table in a short amount of time, as most specimens taken this way are quite large. Shelter for a nesting catfish, such as along submerged highways, under rocks or mud banks, hollow logs, or inside of abandoned drums. Once favorite nesting sites have been found for a body of water, catfish are likely to be in the same spots year after year.</p></td>
+
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(10);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Octopush: <font size=-1>from http://w3.one.net/%7eputney/uwh/game.html</font></p>
+
+<p>Underwater Hockey is a fun, fast-moving game that played on the bottom of a swimming pool. It is a great team-building sport, since success (scoring) depends on all team members working together (noone can hold their breath forever - you have to come up for air sometime). It's a great aerobic workout, and it's kind to sinuses, knees, hips and other body joints. It is one of the few games in which men and women can compete equally. It's played by two teams of 6 players with 4 substitutes per side. In competition, a game is 30 minutes long, with a 3 minute break at half-time. There are no offsides - players can move freely throughout the pool. All you need to play is a mask, fins, snorkel, stick and puck. Ear protection (typically water polo caps) is required for tournament play, and most players also wear a protective glove on their stick hand. It also helps to have something to use as goals. A variety of things can be used, even weighted cones. Ideally the pool should be 25 m x 15 m and 2-3 m deep all the way across, but anything will do, even slopes (just change ends at half-time). Goals are 3 meters long (competition goals are stainless or galvanized steel and have a little trough in them). Lead weights and 3 meters of rope can be used as the goals, though the sound of the puck thunking into the back of a metal goal is very satisfying and should be experienced!</p></td>
+
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(11);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+
+<tr><td><p>Pachyderm Polo: <font size=-1>from http://www.corkscrew-balloon.com/polo/94/</font></p>
+
+<p>Pachyderm polo is a version of equine polo, except that instead of the players riding a horse, they ride
+an elephant. With a few exceptions, the rules of equine polo work for pachyderm polo. The impracticality
+ of eight five-ton mounts crowding around a three-inch ball was evident. To circumvent congestion, one 
+player from each team remains on his side of the midfield at all times. In addition, an arc is marked around 
+the goal itself on each side, and only two players from each team may be within the boundaries of this 
+semicircle. Hooking is not permitted. Nor is riding off (the very real possibility of having one’s leg crushed between two mammoth mounts being somewhat disconcerting). The elephant polo field, at 120 yards by 70 yards, is somewhat smaller than equine polo fields to allow for the elephants’ dignified pace. A game consists of two 10-minute chukkers with a 15-minute break at halftime. Mallets are 98 to 110 inches in length, depending on the height of the elephant, and are quite heavy. Players usually bandage their wrists to provide the additional strength required for those difficult under-the-trunk shots.</p>
+<a href="javascript:nextPage('2->7', '7.cgi');">Asian sports that aren't Kabbadi</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(12);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Skijoring: <font size=-1>from http://www.northernterritories.com/Skijoring.htm</font></p>
+
+<p>Skijoring is the sport of being pulled on skis by a dog or dogs in harness. It's the simplest, most intimate form of dog driving there is. Skijoring can be done by anyone with adequate skiing skills, and with virtually any breed of dog that weighs more than about 30 pounds--as long as the dog is willing! Only a few items of equipment are necessary to start out in this sport. You'll need skis, boots and poles, of course. Most skijorers use cross country touring skis or skating skis, though skating skis are best on wide, flat, well-groomed trails. The dog's harness can be either an X-back or H-back racing harness, but NOT a weight-pulling harness. The skijorer wears a skijoring belt, at least 3 to 4 inches wide across the back, to which is attached a skijoring line that hooks into the back of the dog's harness. There are refinements to each of these items, but the basic setup is very simple.</p></td>
+
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(15);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p><font size=-1>Coopers Hill Cheese Rolling and Wake: from http://www.doctordanger.com/other%20events/Cheese.htm</font></p>
+
+<p>The famous "Coopers Hill Cheese Rolling and Wake" is an ancient event which takes 
+place annually on the Spring Bank holiday in Gloucestershire (UK).
+The rules of the game are simple, you show up, you chase cheese off a cliff, 
+you tumble for a couple hundred yards, then you go to either the pub or the local hospital.
+Coopers Hill Cheese Rolling and Wake is dangerous and can easily result in serious injury or possibly death. 
+This year someone wound up being karted off in an ambulance after almost every run - 
+and considering only 15 people participate in each run the odds of being injured are not favourable.</p>
+<a href="javascript:nextPage('3->9', '9.cgi');">Dressage</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(2);"></td>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p><font size=-1>Crane and Tortoise Relays: from http://www.yochisha.keio.ac.jp/ew/SportsD.htm</font></p>
+
+<p>The Crane and Tortoise Relays are a common part of sports days in Japan.
+Teams of four boys carry a cover which looks like a tortoise and run a four-legged race around a track, 
+tagging off to a team of girls at the finishline. The team of two girls, wearing crane wings and costumes, 
+run a three-legged race around the track, and when they cross the finish line the next team starts off. 
+Classes at Yochisha, Japan have 44 students each (32 boys and 12 girls) with three classes (K, E and O) in each grade, 
+and all classes from 6 grades compete in this event. The winners are the class who get all their tortoises and 
+cranes across the finish line first.</p></td>
+
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(2);"></td><input type="button" value="This is My Topic" onClick="getResults(3);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Korfball: <font size=-1>from http://www.sheffieldbase.com/unusual.shtml</font></p>
+
+<p>Korfball is, to generalise slightly, a bit like netball. Because there's a net. And a ball, incidentally. 
+More intriguingly Korfball is, according to the University Korfball club web site, 
+"The world's only true mixed team sport in which both men and women compete on equal grounds."
+Invented by a Dutch schoolteacher 101 years ago, Korfball was first played in England in South London in 1946. 
+There are now clubs all over the country and the university has teams in the Central England Korfball League. 
+Teams are made up of 4 men and 4 women, and there are rules that make it equal for men and women 
+(You are only allowed someone of your own sex for example).</p>
+<a href="javascript:nextPage('2->5', '5.cgi');">Strangely-named ball sports that aren't Tchoukball</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(2);"></td><input type="button" value="This is My Topic" onClick="getResults(9);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Tchoukball: <font size=-1>from http://lcavwww.epfl.ch/~lebrun/english/history.html</font></p>
+
+<p>The game Tchoukball arouse from the thoughts and research of the doctor Hermann Brandt, started during the sixties. 
+It is the result of a critical scientific study of the most popular team sports. Brandt, a medical doctor form Geneva, 
+encountered many athletes who had been wounded more or less severely while practising their sport. 
+He noticed that these traumatises resulted from performing movements inadequate with the individual's physiology, 
+as well as from the many forms of aggression present in some sports.
+Tchoukball presents appears as a mix between Basque pelota, handball and volleyball. 
+It is a team sport played with a ball and two rebound surfaces (frames) and is characterised by the 
+suppression of any form of corporal aggression between the opponents.</p></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(2);"></td><input type="button" value="This is My Topic" onClick="getResults(18);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+
+
+
+<tr><td><p>Pickleball: <font size=-1>from http://www.angelfire.com/id/clare/page9.html</font></p>
+
+<p>Pickleball is a court sport best described as half way between tennis and ping-pong. 
+The court is 44’ x 20’ and divided in two courts by a 36” high net. It is played as a singles game with one 
+person/side or as a doubles game with 2 people on each side of the net. Each player has a paddle 
+(total length is 15 1/2” and the width is no more than 8”) and the object of the game is to score points 
+by successfully hitting a 3” diameter plastic ball (that is perforated with 26 holes 7/16” in diameter- 
+commonly known as a whiffle-ball) across the net without it being successfully returned by the opponent(s).</p>
+<a href="javascript:nextPage('5->11', '11.cgi');">Octopush</a></td>
+<td colspan="50" align="center"><input type="button" value="This is My Topic" onClick="getResults(2);"></td><input type="button" value="This is My Topic" onClick="getResults(14);"><br>
+</td>
+</tr>
+<tr><td>&nbsp; &nbsp;</td></tr>
+

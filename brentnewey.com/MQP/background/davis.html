@@ -1,0 +1,44 @@
+<html>
+<head><title>Summary - GA Handbook</title></head>
+
+<body>
+<h3>Source:</h3>
+Davis, L., ed. <u>Handbook of Genetic Algorithms</u>. New York: Van Nostrand, 1991.
+
+<h3>Summary by Anitra</h3>
+<p>The first part is a tutorial on GAs, the second part a series of papers describing projects using GAs.</p>
+
+	<ul><li>The point of crossover: favorable mutations spread quickly, especially in combinations (which is nearly impossible in a mutation-only algorithm).</li>
+	<li>The Schema Theorem: schema that occur in chromosomes with above-average evaluation will tend to occur more frequently in the next generation (and vice-versa).</li>
+	<li>GAs are intrinsically parallel, working on many possible solutions at once.</li>
+	<li>GAs tend to converge on the optimal solution, eventually (if allowed to run its course) settling on a chromosome which would require much mutation to improve. At this point other techniques can be undertaken to try to improve on this final solution from the GA.</li>
+	<li>Because of this convergence, a GA is muc more effective at the beginning of its run (weeding out bad solutions) than at the end (incrementally improving on a good solution).</li>
+	<li>Multiple runs are required for consistent results.</li>
+	<li>When modifying a GA, remember that small changes in how it works can have very large effects.</li>
+	<li>Fitness techniques:
+		<ul><li><b>Evaluation is Fitness:</b> easy to do, but has disadvantages:
+			<ul><li>At the beginning of a run: a "super-individual" can quickly wipe out all its competitors.</li>
+			<li>At the end of the run: close competitors will all be treated equally.</li></ul>
+		<li><b>Windowing:</b> Find the minimum evaluation in the population, and assign each chromosome a fitness equal to the amount it exceeds this minimum.</li>
+		<li><b>Linear Normalization:</b> based on ordering the chromosomes by evaluation. Best evaluation gets highest number, worst evaluation gets lowest.</li>
+		</ul></li>
+	<li>Elitism: technique to keep best individual in a population from being lost. Copy the best individual of the generation into the next generation.</li>
+	<li>Steady-State Reproduction: continually produce children (one or two at a time) and insert into the population, instead of producing children generationally. Steady-state can also be used in a method to reduce/eliminate occurences of duplicate chromosomes.</li>
+	<li>Elitism or steady-state reproduction allow an algorithm to utilize greater crossover & mutation rates, without losing (many) good chromosomes.</li>
+	<li>Generational replacement is better for noisy functions (in which the same chromosome may return a different value each time it is evaluated). (robustness vs. performance)</li>
+	<li>Operator-based reproduction: split operations into crossover and mutation - perform them on separate chromosomes. (include "fitness" of operator to control how often each happens).</li>
+	<li>Crossover methods:
+		<ul><li>One-point crossover</li>
+		<li>Two-point crossover</li>
+		<li>Uniform crossover: randomly decide which parent contributes each bit to which child (create a template)</li></ul>
+	<li>A good technique involves changing operator "fitness" over time. At the beginning of a run, crossover is most effective; at the end, mutation. (More about which values to choose and when is in the book).</li>
+	<li><b>Adopting real number encoding for chromosomes:</b> obvious benefits, not the least of which is understandability. Example operators:
+		<ul><li><b>Average crossover:</b> produces a child that is the average of two parents.</li>
+		<li><b>Real number mutation:</b> replace a real number in a chromosome with a randomly selected real number.</li>
+		<li><b>Real number creep:</b> "creeps" any value on the chromosome up or down a small (random) amount. Best for continuous functions with hills/valleys.</li>
+		</ul></li>
+	<li><b>Order-Based Representation:</b> each chromosome is a permutation of the "list". Operators: uniform order-based crossover and scramble sublist mutation.</li>
+	</ul>
+	
+<p>The first application in the second part of the book regards designing aircraft, and speaks of how to parameterize all the variables involved. None of the other applications seemed very relevant.</p>
+</body></html>

@@ -1,0 +1,59 @@
+<html>
+<head><title>Summary - Toward's Adaptive Websites: Conceptual Framework and case study</title></head>
+
+<body>
+<h3>Source:</h3>
+Perkowitz, M., and O. Etzioni. <u>Toward's Adaptive Websites: Conceptual Framework and case study</u>. Reading: Artificial Intelligence, July 2000.
+
+<h3>Summary by Mike</h3>
+
+<p>This article is a case study that deals with implementing an adaptive website using index page synthesis.
+<p>It is organized into three sections, the first being a discussion on adaptive websites, the second and third both being on diffent
+algorithms implemented by the authors.
+<p>Some points from the first section on adaptive websites are:
+<ul>
+<li>the authors viewed the state (i.e. the website) as a function from: a user model, the sequence of pages viewed during the current
+visit to the site, and the sequence of links clicked on during the current visit, to the web page shown to the user,
+<li>the quality of the website was measured as a function of: the recall-how often users find what they are looking for and the effort-how much work
+users exert to find what they looking for
+<li>access vs. content-based approaches
+<li>"In practice, finding an "optimal" website is unrealisitic. Most adaptive methods tend to focus on hill climbing
+from the initial state to another state that is likely to be better."
+<li>the authors evaluated to usefullness of a site transformation be examing two factors, one being the benefit-how much they improved to the
+site for those who use it, and the other being the impact-how many users actually benefit
+<li>Previous work: WebWatcher, AVANTI, Ringo, GroupLens, Fab, Footprints, STRUDEL, AiA, Letizia
+<li>The authors considerations for an adaptive website:
+<ul>
+<li>Avoid creating work for visitors(i.e. filling out questionnaires)
+<li>Make the webiste easier to use for everyone, including first-time users, casual users, etc.
+<li>Minimize additional work for the webmaster
+<li>Protect the sites original design from destructive changes(i.e add links but not remove links)
+<li>Keep the human webmaster in control
+</ul>
+<li>accumulate statistics over many visits by numerous visitors and search for overall trends
+<li>change in view(new page) vs. change in organiztion
+</ul>
+<p>Some points from the second and third sections:
+<ul>
+<li>Subproblems to consider when synthesizing a new index page:
+<ul>
+<li>What are the contents(i.e. hyperlinks) of the index page?
+<li>How are the hyperlinks on the page ordered?
+<li>How are the hyperlinks labeled?
+<li>What is the title of the page? Does it correspond to a coherent concept?
+<li>Is it appropriate to add the page to the site? If so, where?
+</ul>
+<li>statistical clustering vs. frequent set algorithms
+<li>PageGather algorithm:
+<ul>
+<li>process the access log into visits
+<li>compute the co-occurence frequencies between pages and create a similarity matrix
+<li>create the graph corresponding to the matrix, and find clusters in the graph
+<li>rank the clusters found
+<li>eliminate overlap among the clusters
+<li>present the clusters to the webmaster for selection; for each selected cluster, create a web page consisting
+of links to the pages in the cluster
+
+
+</body>
+</html>

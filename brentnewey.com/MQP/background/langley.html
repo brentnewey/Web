@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>User Modeling and Adaptive Interfaces</title>
+<head>
+
+<body>
+<h3>Source:</h3>
+Langley, P. and Hirsh, H. <u>User Modeling and Adaptive Interfaces</u>. Seventeenth National Conference on AI.
+
+<h3>Summary by Mike</h3>
+<ul>
+<li>personalization requires some model of the user's behavior
+<li>personalized systems depend on some stored model of the user to predict his preferences and behavior
+<li>the problem of learning individual models: (adaptive user interfaces)
+	<ul>
+	<li>given: a set of tasks that require some user decision
+	<li>given: descriptions for each of these tasks
+	<li>given: traces of the users decisions on each task
+	<li>find: mapping from task features to user decisions
+	</ul>
+<li>questionnaire(tediuos?) vs. traces(less obtrusive)
+<li>definition "a software artifact that reduces user effort by aquiring a user model based on past interaction"
+<li>steps in developing adaptive interfaces:
+	<ul>
+	<li>problem formulation
+		<ul>
+		<li>given: some task that an intelligent assistant could aid
+		<li>find: some formulation that lets the assistant improve its performance by learning a user model from experience
+		<li>design choices: the aspect of user behavior tp be predicted, the level of desciption (what constitutes a training case)
+		</ul>
+	</ul>
+	<ul>
+	<li>representation engineering
+		<ul>
+		<li>given: a formulation of some task in machine learning terms
+		<li>find: some representation for behavior and user models that makes the learning task tractable
+		<li>design choices: information to be used when predicting behavior, internal encoding of that information in the system (i.e. attribute-value)
+		</ul>
+	</ul>
+	<ul>
+	<li>collecting user traces
+		<ul>
+		<li>given: a problem formulation in terms of machine learning and a representation of user behavior
+		<li>find: an effective way to collect traces of this behavior
+		<li>design chioces: how to transform these traces into training instances, what action the user must make to generate the traces (i.e. ideally no extra user effort)
+		</ul>
+	</ul>
+	<ul>
+	<li>using the learned model
+		<ul>
+		<li>given: an approach to learning a user model for some task
+		<li>find: some way to invoke the model that helps the user perform the task more effectively
+		<li>design choices: when and how to present the model's predictions to the user, how to handle cases in which these predictions are wrong
+		</ul>
+	</ul>
+	<ul>
+	<li>gaining user acceptance
+		<ul>
+		<li>given: a complete user interface for some task, ways to get people to try the system and to become long term users
+		</ul>
+	</ul>
+<li>examples of adaptive interfaces are presented for the rest of the tutorial:
+	<ul>
+	<li>NewsWeeder, NewsDude, DailyLearner, MailCat, EmailValet...
+	</ul>

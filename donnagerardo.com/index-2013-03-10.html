@@ -1,0 +1,689 @@
+<DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<base target="_top">
+<style type="text/css">
+  
+
+/* default css */
+
+table {
+  font-size: 1em;
+  line-height: inherit;
+  border-collapse: collapse;
+}
+
+
+tr {
+  
+  text-align: left;
+  
+}
+
+
+div, address, ol, ul, li, option, select {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+
+pre {
+  font-family: Courier New;
+  white-space: pre-wrap;
+  margin:0;
+}
+
+body {
+  margin: 6px;
+  padding: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  background-color: #ffffff;
+  color: #000;
+}
+
+
+img {
+  -moz-force-broken-image-icon: 1;
+}
+
+@media screen {
+  html.pageview {
+    background-color: #f3f3f3 !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  
+
+  body {
+    min-height: 1100px;
+    
+    counter-reset: __goog_page__;
+  }
+  
+  * html body {
+    height: 1100px;
+  }
+  /* Prevent repaint errors when scrolling in Safari. This "Star-7" css hack
+     targets Safari 3.1, but not WebKit nightlies and presumably Safari 4.
+     That's OK because this bug is fixed in WebKit nightlies/Safari 4 :-). */
+  html*#wys_frame::before {
+    content: '\A0';
+    position: fixed;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .pageview body {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+    width: 648px !important;
+    margin: 15px auto 25px;
+    padding: 40px 50px;
+  }
+  /* IE6 */
+  * html {
+    overflow-y: scroll;
+  }
+  * html.pageview body {
+    overflow-x: auto;
+  }
+  
+
+  
+    
+    
+    .writely-callout-data {
+      display: inline-block;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      margin-left: -1px;
+    }
+    
+
+    .writely-footnote-marker {
+      background-image: url('MISSING');
+      background-color: transparent;
+      background-repeat: no-repeat;
+      width: 7px;
+      overflow: hidden;
+      height: 16px;
+      vertical-align: top;
+
+      
+      -moz-user-select: none;
+    }
+    .editor .writely-footnote-marker {
+      cursor: move;
+    }
+    .writely-footnote-marker-highlight {
+      background-position: -15px 0;
+      -moz-user-select: text;
+    }
+    .writely-footnote-hide-selection ::-moz-selection, .writely-footnote-hide-selection::-moz-selection {
+      background: transparent;
+    }
+    .writely-footnote-hide-selection ::selection, .writely-footnote-hide-selection::selection {
+      background: transparent;
+    }
+    .writely-footnote-hide-selection {
+      cursor: move;
+    }
+
+    /* Comments */
+    .writely-comment-yellow {
+      background-color: #ffffd7;
+    }
+    .writely-comment-orange {
+      background-color: #ffe3c0;
+    }
+    .writely-comment-pink {
+      background-color: #ffd7ff;
+    }
+    .writely-comment-green {
+      background-color: #d7ffd7;
+    }
+    .writely-comment-blue {
+      background-color: #d7ffff;
+    }
+    .writely-comment-purple {
+      background-color: #eed7ff;
+    }
+
+  
+
+
+  
+  .br_fix span+br:not(:-moz-last-node) {
+    
+    position:relative;
+    
+    left: -1ex
+    
+  }
+
+  
+  #cb-p-tgt {
+    font-size: 8pt;
+    padding: .4em;
+    background-color: #ddd;
+    color: #333;
+  }
+  #cb-p-tgt-can {
+    text-decoration: underline;
+    color: #36c;
+    font-weight: bold;
+    margin-left: 2em;
+  }
+  #cb-p-tgt .spin {
+    width: 16px;
+    height: 16px;
+    background: url(//ssl.gstatic.com/docs/clipboard/spin_16o.gif) no-repeat;
+  }
+}
+
+h6 { font-size: 8pt }
+h5 { font-size: 8pt }
+h4 { font-size: 10pt }
+h3 { font-size: 12pt }
+h2 { font-size: 14pt }
+h1 { font-size: 18pt }
+
+blockquote {padding: 10px; border: 1px #DDD dashed }
+
+.webkit-indent-blockquote { border: none; }
+
+a img {border: 0}
+
+.pb {
+  border-width: 0;
+  page-break-after: always;
+  /* We don't want this to be resizeable, so enforce a width and height
+     using !important */
+  height: 1px !important;
+  width: 100% !important;
+}
+
+.editor .pb {
+  border-top: 1px dashed #C0C0C0;
+  border-bottom: 1px dashed #C0C0C0;
+}
+
+div.google_header, div.google_footer {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+/* Table of contents */
+.editor div.writely-toc {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+}
+.writely-toc > ol {
+  padding-left: 3em;
+  font-weight: bold;
+}
+ol.writely-toc-subheading {
+  padding-left: 1em;
+  font-weight: normal;
+}
+/* IE6 only */
+* html writely-toc ol {
+  list-style-position: inside;
+}
+.writely-toc-none {
+  list-style-type: none;
+}
+.writely-toc-decimal {
+  list-style-type: decimal;
+}
+.writely-toc-upper-alpha {
+  list-style-type: upper-alpha;
+}
+.writely-toc-lower-alpha {
+  list-style-type: lower-alpha;
+}
+.writely-toc-upper-roman {
+  list-style-type: upper-roman;
+}
+.writely-toc-lower-roman {
+  list-style-type: lower-roman;
+}
+.writely-toc-disc {
+  list-style-type: disc;
+}
+
+/* Ordered lists converted to numbered lists can preserve ordered types, and
+   vice versa. This is confusing, so disallow it */
+ul[type="i"], ul[type="I"], ul[type="1"], ul[type="a"], ul[type="A"] {
+  list-style-type: disc;
+}
+
+ol[type="disc"], ol[type="circle"], ol[type="square"] {
+  list-style-type: decimal;
+}
+
+/* end default css */
+
+
+  /* default print css */
+  @media print {
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    div.google_header, div.google_footer {
+      display: block;
+      min-height: 0;
+      border: none;
+    }
+
+    div.google_header {
+      flow: static(header);
+    }
+
+    /* used to insert page numbers */
+    div.google_header::before, div.google_footer::before {
+      position: absolute;
+      top: 0;
+    }
+
+    div.google_footer {
+      flow: static(footer);
+    }
+
+    /* always consider this element at the start of the doc */
+    div#google_footer {
+      flow: static(footer, start);
+    }
+
+    span.google_pagenumber {
+      content: counter(page);
+    }
+
+    span.google_pagecount {
+      content: counter(pages);
+    }
+
+    .endnotes {
+      page: endnote;
+    }
+
+    /* MLA specifies that endnotes title should be 1" margin from the top of the page. */
+    @page endnote {
+      margin-top: 1in;
+    }
+
+    callout.google_footnote {
+      
+      display: prince-footnote;
+      footnote-style-position: inside;
+      /* These styles keep the footnote from taking on the style of the text
+         surrounding the footnote marker. They can be overridden in the
+         document CSS. */
+      color: #000;
+      font-family: Arial;
+      font-size: 10.0pt;
+      font-weight: normal;
+    }
+
+    /* Table of contents */
+    #WritelyTableOfContents a::after {
+      content: leader('.') target-counter(attr(href), page);
+    }
+
+    #WritelyTableOfContents a {
+      text-decoration: none;
+      color: black;
+    }
+
+    /* Comments */
+    .writely-comment-yellow {
+      background-color: #ffffd7;
+    }
+    .writely-comment-orange {
+      background-color: #ffe3c0;
+    }
+    .writely-comment-pink {
+      background-color: #ffd7ff;
+    }
+    .writely-comment-green {
+      background-color: #d7ffd7;
+    }
+    .writely-comment-blue {
+      background-color: #d7ffff;
+    }
+    .writely-comment-purple {
+      background-color: #eed7ff;
+    }
+  }
+
+  @page {
+    @top {
+      content: flow(header);
+    }
+    @bottom {
+      content: flow(footer);
+    }
+    @footnotes {
+      border-top: solid black thin;
+      padding-top: 8pt;
+    }
+  }
+  /* end default print css */
+
+
+/* custom css */
+
+
+/* end custom css */
+
+/* ui edited css */
+
+body {
+  font-family: Arial;
+  
+  font-size: 10.0pt;
+  line-height: normal;
+  background-color: #ffffff;
+}
+/* end ui edited css */
+
+
+/* editor CSS */
+.editor a:visited {color: #551A8B}
+.editor table.zeroBorder {border: 1px dotted gray}
+.editor table.zeroBorder td {border: 1px dotted gray}
+.editor table.zeroBorder th {border: 1px dotted gray}
+
+
+.editor div.google_header, .editor div.google_footer {
+  border: 2px #DDDDDD dashed;
+  position: static;
+  width: 100%;
+  min-height: 2em;
+}
+
+.editor .misspell {background-color: yellow}
+
+.editor .writely-comment {
+  font-size: 9pt;
+  line-height: 1.4;
+  padding: 1px;
+  border: 1px dashed #C0C0C0
+}
+
+
+/* end editor CSS */
+
+</style>
+
+  
+  <title>Donna Gerardo</title>
+
+</head>
+
+<body 
+    
+    >
+    
+    
+    
+<p align=left>
+  <b><font size=4><br>
+  </font></b>
+</p>
+<p align=left>
+  <font color=#000000><b><font size=4>Donna Gerardo</font></b></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=4>722 Intervale Road</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=4>New Gloucester, ME 04260</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=4><b>Cell</b> 207 233 2276</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=4><b>Home</b>&nbsp;207 926 4454</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=4><a href=mailto:dgerardo@securespeed.us id=zv0o title=dgerardo@securespeed.us>dgerardo@securespeed.us</a></font></font>
+</p>
+<p align=left>
+  <br>
+</p>
+<p align=left>
+  <font color=#000000><font size=3><b>Experience</b></font></font>
+</p>
+<p align=left>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+  <font color=#000000><font size=3><i>Sales Manager</i></font></font>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+  <font color=#000000><font size=3>Tilbury House Publishers&nbsp;</font><font size=2>(2010 - Present)</font></font>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+  <font color=#000000><font size=3>Gardiner, MA</font></font>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+</p>
+<ul>
+  <li>
+    <font color=#000000><font size=3>Managed marketing and sales for gift, book, and specialty stores such as L.L. Bean and Kittery Trading Post</font></font>
+  </li>
+  <li>
+    <font color=#000000><font size=3>Created customized marketing outreach for individual prospects</font></font>
+  </li>
+  <li>
+    <font color=#000000><font size=3>Attended trade shows in a sales capacity</font></font>
+  </li>
+  <li>
+    <font color=#000000><font size=3>Maintained records using FileMaker Pro</font></font>
+  </li>
+</ul>
+<font size=3><b><br>
+</b></font>
+<p>
+</p>
+<p align=left>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+  <font color=#000000><font size=3><i>Events Coordinator</i></font></font>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+  <font color=#000000><font size=3>Books Etc </font><font size=2>(2009 - 2010)</font></font>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+  <font color=#000000><font size=3>Falmouth, MA</font></font>
+</p>
+<p align=left style=MARGIN-LEFT:0px;MARGIN-RIGHT:0px>
+</p>
+<ul>
+  <li>
+    <font color=#000000><font size=3>Liaised with authors &amp; publicists to arrange in-store signing</font></font>
+  </li>
+  <li>
+    <font color=#000000><font size=3>Contacted local media to arrange interviews and advertising</font></font>
+  </li>
+  <li>
+    <font color=#000000><font size=3>Used Constant Contact to design invitations and send email lists</font></font>
+  </li>
+  <li>
+    <font color=#000000><font size=3>Designed in-store posters &amp; bookmarks</font></font>
+  </li>
+</ul>
+<font size=3><b><br>
+</b></font>
+<p>
+</p>
+<p align=left>
+  <font color=#000000><font size=3><i>Children.s Book Buyer</i></font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=3>Books Etc&nbsp;</font><font size=2>(2000 - 2010)</font></font>
+</p>
+<p align=left>
+  <font size=3>Falmouth, MA</font>
+</p>
+<p align=left>
+</p>
+<ul>
+  <li>
+    <font size=3>Responsible for buying and returning children's book selection for two store locations</font>
+  </li>
+  <li>
+    <font size=3>Developed weekly reports to track merchandise sale</font>
+  </li>
+  <li>
+    <font size=3>Met with publishing representatives to review catalogs and galleys</font>
+  </li>
+  <li>
+    <font size=3>Determined appropriate sideline items to be carried by each store</font>
+  </li>
+  <li>
+    <font size=3>Active member of New England Children's Book Association (NECBA)</font>
+  </li>
+  <li>
+    <font size=3>Organized, advertised and ran both children's and adult events including author signings, book fairs, and book talks in-store and at local libraries and schools</font>
+  </li>
+</ul>
+<p>
+</p>
+<p align=left>
+  <br>
+</p>
+<p align=left>
+  <font color=#000000><font size=3><i>Shift Manager/Customer Service</i></font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=3>Bookland </font><font size=2>(1982 - 2000)</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=3>Various Locations</font></font>
+</p>
+<p align=left>
+</p>
+<ul>
+  <li>
+    <font size=3>Responsible for opening and closing, c</font><font size=3>ash outs and bank deposits</font>
+  </li>
+  <li>
+    <font size=3>Children.s department specialist with back-list buying</font>
+  </li>
+  <li>
+    <font size=3>Originated, organized, advertised and ran weekend as well as week-long themed</font>&nbsp;<font size=3>events</font>
+  </li>
+</ul>
+<p>
+</p>
+<p align=left>
+  <br>
+</p>
+<p align=left>
+  <font color=#000000><font size=3><b>Education</b></font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=3><i>Gray New Gloucester High School</i></font></font>
+</p>
+<p align=left>
+  <font size=3>Gray, ME</font>
+</p>
+<p align=left>
+  <font color=#000000><font size=3>1970 - 1974</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=3>High school diploma</font></font>
+</p>
+<p align=left>
+  <br>
+</p>
+<p align=left>
+  <font color=#000000><font size=3><i>Henry Simmons School of Design</i></font></font>
+</p>
+<p align=left>
+  <font size=3>Wellesley, MA </font>
+</p>
+<p align=left>
+  <font color=#000000> <font size=3>1975 - 1976</font></font>
+</p>
+<p align=left>
+  <br>
+</p>
+<p align=left>
+  <font color=#000000><font size=3><b>Additional Work</b></font></font>
+</p>
+<p align=left>
+</p>
+<ul>
+  <li>
+    <font size=3>Donna's Book Blog: <a href=http://donnasbooks.blogspot.com id=k6ni title=donnasbooks.blogspot.com>donnasbooks.blogspot.com</a></font>
+  </li>
+  <li>
+    <font size=3>Monthly review contributor to Audiofile magazine: <a href=http://www.donnagerardo.com/reviews id=fb7i title=donnagerardo.com/reviews>donnagerardo.com/reviews</a></font>
+  </li>
+  <li>
+    <font size=3>Audies judge for Audio Publishing Association 6 years running</font>
+  </li>
+  <li>
+    <font size=3>Monthly on-air contributor for channel 6 program 207: <a href=http://www.donnagerardo.com/videos id=fonl title=donnagerardo.com/videos>donnagerardo.com/videos</a></font>
+  </li>
+</ul>
+<p>
+</p>
+<p align=left>
+</p>
+<p align=left>
+  <br>
+</p>
+<p align=left>
+  <font color=#000000><font size=3>References are available on request.</font></font>
+</p>
+<p align=left>
+  <br>
+</p>
+<p align=left>
+  <font color=#000000><font size=2><b>Donna Gerardo</b></font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=2>722 Intervale Road</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=2>New Gloucester, ME 04260</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=2><b>Cell </b>207 233 2276</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=2><b>Home</b> 207 926 4454</font></font>
+</p>
+<p align=left>
+  <font color=#000000><font size=2><a href=mailto:dgerardo@securespeed.us id=ke9m title=dgerardo@securespeed.us>dgerardo@securespeed.us</a></font></font>
+</p>
+<p align=left>
+  <br>
+</p>
+<br></body>
+</html>
+
